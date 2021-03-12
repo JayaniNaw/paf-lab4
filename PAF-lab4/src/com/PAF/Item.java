@@ -91,13 +91,13 @@ public class Item {
 	 // buttons
 				 output += "<td>"
 				 		+ "<input name='btnUpdate'"
-				 		+ " type='button' value='Update'>"
+				 		+ " type='button' value='Update' class='btn btn-Secondary'>"
 				 		+ "<input name='itemID' type='hidden'"
 				 		+ "value='" + itemID + "'></td>"
 				 + "<td>"
 				 + "<form method='post' action='Items.jsp'>"
 				 + "<input name='btnRemove' " 
-				 + " type='submit' value='Remove'>"
+				 + " type='submit' value='Remove' class='btn btn-danger'>"
 				 + "<input name='itemID' type='hidden' " 
 				 + " value='" + itemID + "'>" + "</form></td></tr>"; 
 			 } 
